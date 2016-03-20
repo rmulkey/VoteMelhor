@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 
+#define kTransparenciaBrasilToken @"t5rGxDbNbJLc"
+#define kTransparenciaBrasilSecret @"LeNi7tBFgPiO"
+
 @interface AppDelegate ()
 
 @end
