@@ -17,6 +17,9 @@
 		0D00BC871C9F41E20058A8A6 /* VoteMelhorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D00BC861C9F41E20058A8A6 /* VoteMelhorTests.m */; };
 		0D00BC931C9F42EE0058A8A6 /* Candidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D00BC921C9F42EE0058A8A6 /* Candidate.m */; };
 		0D00BC961C9F70700058A8A6 /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D00BC951C9F70700058A8A6 /* RequestManager.m */; };
+		0D00BC981C9FCB4C0058A8A6 /* partidos.json in Resources */ = {isa = PBXBuildFile; fileRef = 0D00BC971C9FCB4C0058A8A6 /* partidos.json */; };
+		0D00BC9A1C9FCBA60058A8A6 /* candidatos.json in Resources */ = {isa = PBXBuildFile; fileRef = 0D00BC991C9FCBA60058A8A6 /* candidatos.json */; };
+		0D00BC9C1C9FCC2D0058A8A6 /* excelencias.json in Resources */ = {isa = PBXBuildFile; fileRef = 0D00BC9B1C9FCC2D0058A8A6 /* excelencias.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		0D00BC921C9F42EE0058A8A6 /* Candidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Candidate.m; sourceTree = "<group>"; };
 		0D00BC941C9F70700058A8A6 /* RequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestManager.h; sourceTree = "<group>"; };
 		0D00BC951C9F70700058A8A6 /* RequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestManager.m; sourceTree = "<group>"; };
+		0D00BC971C9FCB4C0058A8A6 /* partidos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = partidos.json; sourceTree = "<group>"; };
+		0D00BC991C9FCBA60058A8A6 /* candidatos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = candidatos.json; sourceTree = "<group>"; };
+		0D00BC9B1C9FCC2D0058A8A6 /* excelencias.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = excelencias.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,12 +96,15 @@
 		0D00BC681C9F41E20058A8A6 /* VoteMelhor */ = {
 			isa = PBXGroup;
 			children = (
+				0D00BC971C9FCB4C0058A8A6 /* partidos.json */,
+				0D00BC991C9FCBA60058A8A6 /* candidatos.json */,
+				0D00BC9B1C9FCC2D0058A8A6 /* excelencias.json */,
 				0D00BC6C1C9F41E20058A8A6 /* AppDelegate.h */,
 				0D00BC6D1C9F41E20058A8A6 /* AppDelegate.m */,
 				0D00BC911C9F42EE0058A8A6 /* Candidate.h */,
+				0D00BC921C9F42EE0058A8A6 /* Candidate.m */,
 				0D00BC941C9F70700058A8A6 /* RequestManager.h */,
 				0D00BC951C9F70700058A8A6 /* RequestManager.m */,
-				0D00BC921C9F42EE0058A8A6 /* Candidate.m */,
 				0D00BC6F1C9F41E20058A8A6 /* FirstViewController.h */,
 				0D00BC701C9F41E20058A8A6 /* FirstViewController.m */,
 				0D00BC721C9F41E20058A8A6 /* SecondViewController.h */,
@@ -209,6 +218,9 @@
 				0D00BC7C1C9F41E20058A8A6 /* LaunchScreen.storyboard in Resources */,
 				0D00BC791C9F41E20058A8A6 /* Assets.xcassets in Resources */,
 				0D00BC771C9F41E20058A8A6 /* Main.storyboard in Resources */,
+				0D00BC981C9FCB4C0058A8A6 /* partidos.json in Resources */,
+				0D00BC9A1C9FCBA60058A8A6 /* candidatos.json in Resources */,
+				0D00BC9C1C9FCC2D0058A8A6 /* excelencias.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
